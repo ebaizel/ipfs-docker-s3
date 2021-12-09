@@ -1,4 +1,8 @@
-### To run with Node:
+This is a sample repo, and should *not* be used as-is in production.
+
+This repo demonstrates how to run an IPFS node that uses S3 as its data store. The IPFS node can be run from the cli with Node.js, or as a container.
+
+### To run with Node.js:
 
 - Create a `.env` file and populate it with the S3 bucket name and your AWS Access ID and Secret. See `.sampleenv` for an example.
 - Run `node index.js`
